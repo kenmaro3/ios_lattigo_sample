@@ -1,0 +1,8 @@
+framework module "Simple" {
+	header "ref.h"
+    header "Simple.objc.h"
+    header "Universe.objc.h"
+    header "Simple.h"
+
+    export *
+}
